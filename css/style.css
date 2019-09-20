@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+  background-image: url('../img/Hero.png');  
+  background-size: cover;
+  height: 380px;
+  position: relative;
+  font-family: "Microsoft JhengHei";
+}
+
+#title{
+    color:white;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    position: relative;
+    top: 80px;
+}
+
+header select{
+    width:50%;
+    height: 30px;
+    position: absolute;
+    top: 180px;
+    display: block;
+    left: 25%;
+}
+
+
+.hotSearch {
+    width: 80%;
+    height: 112px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 270px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .hotSearch {
+        width: 80%;
+        height: 170px;
+        background: #FFFFFF;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+        border-radius: 5px;
+        text-align: center;
+        left: 10%;
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 768px){
+    .hotSearch {
+        width: 80%;
+        height: 170px;
+        background: #FFFFFF;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+        border-radius: 5px;
+        text-align: center;
+        left:10%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .hotSearch {
+        
+        height: 250px;
+       
+    }
+}
+
+
+.hotSearch h2 {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Microsoft JhengHei";
+    line-height: 21px;
+   
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+
+.btn input {
+    width: 130px;
+    height: 42px;
+    background: #559AC8;
+    border-radius: 5px;
+    font-family: SimHei;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
+}
+
+.container h3 {
+    margin-top: 150px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.container i {
+    color: black;
+}
+
+.separationLine {
+    background-image: linear-gradient(to right, #559AC8, #fff 45%);
+    background-size: 10px 2px;
+    background-repeat: repeat-x;
+    height: 5px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .separationLine {
+
+        margin-top: 150px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .separationLine {
+       
+        margin-top: 150px;
+        
+    }
+}
+
+@media (max-width: 410px) {
+    .separationLine {
+
+        margin-top: 220px;
+
+    }
+}
+
+.separationLine i {
+    color: #8db4cf;
+    transform: translateY(-50%);
+    font-size: 20px;
+    border: #8db4cf solid 2px;
+    border-radius: 100px;
+    padding: 0px 4px;
+    background: #fff;
+}
+
+footer {
+    height: 90px;
+    background: rgb(200, 198, 85);
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 10px;
+    font-family: "Microsoft JhengHei";
+}
+
+#intro{
+    font-family: "Microsoft JhengHei";
+}
